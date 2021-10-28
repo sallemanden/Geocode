@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e63ba73a7c1b425ca80c0c7182b3b405 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_e63ba73a7c1b425ca80c0c7182b3b405" ></div>
+
+</body>
+<script>
+
+            var map_e63ba73a7c1b425ca80c0c7182b3b405 = L.map(
+                "map_e63ba73a7c1b425ca80c0c7182b3b405",
+                {
+                    center: [55.64152, 12.08035],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_10a074c60a0d4b51a7a81d52a9fae4bd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var marker_1e4adb802ecf4cff87c085965974dd46 = L.marker(
+                [55.65233, 12.13799],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_606473dc007c45cdb01484ca8516a788 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e4adb802ecf4cff87c085965974dd46.setIcon(icon_606473dc007c45cdb01484ca8516a788);
+
+
+        var popup_9d08c63280984a988e4acd10ffa4acb4 = L.popup({"maxWidth": "100%"});
+
+
+            var html_3c5aebd679e5402ea3de126b14119049 = $(`<div id="html_3c5aebd679e5402ea3de126b14119049" style="width: 100.0%; height: 100.0%;">POSTHUS</div>`)[0];
+            popup_9d08c63280984a988e4acd10ffa4acb4.setContent(html_3c5aebd679e5402ea3de126b14119049);
+
+
+        marker_1e4adb802ecf4cff87c085965974dd46.bindPopup(popup_9d08c63280984a988e4acd10ffa4acb4)
+        ;
+
+
+
+
+            var marker_298529f1f2774455b8c9dfd4b1814d70 = L.marker(
+                [55.649640000000005, 12.07809],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_d5e5313f90dd438ea59b3420da44ff01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_298529f1f2774455b8c9dfd4b1814d70.setIcon(icon_d5e5313f90dd438ea59b3420da44ff01);
+
+
+        var popup_09d2dc1d317d403893b381cb57cf63ff = L.popup({"maxWidth": "100%"});
+
+
+            var html_04ca5d113534445a9e82d167887ff6e3 = $(`<div id="html_04ca5d113534445a9e82d167887ff6e3" style="width: 100.0%; height: 100.0%;">Vindeboder 12</div>`)[0];
+            popup_09d2dc1d317d403893b381cb57cf63ff.setContent(html_04ca5d113534445a9e82d167887ff6e3);
+
+
+        marker_298529f1f2774455b8c9dfd4b1814d70.bindPopup(popup_09d2dc1d317d403893b381cb57cf63ff)
+        ;
+
+
+
+
+            var marker_71ae82a766ea4059b594d1c5fc967499 = L.marker(
+                [55.6424, 12.10095],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_097c6f5f348045efad52f7510119a97f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71ae82a766ea4059b594d1c5fc967499.setIcon(icon_097c6f5f348045efad52f7510119a97f);
+
+
+        var popup_1fe26513c6374b459b4224405e788cdc = L.popup({"maxWidth": "100%"});
+
+
+            var html_47cbf3b47b2a4aceb24f442a3ff39007 = $(`<div id="html_47cbf3b47b2a4aceb24f442a3ff39007" style="width: 100.0%; height: 100.0%;">Ro's Torv 1</div>`)[0];
+            popup_1fe26513c6374b459b4224405e788cdc.setContent(html_47cbf3b47b2a4aceb24f442a3ff39007);
+
+
+        marker_71ae82a766ea4059b594d1c5fc967499.bindPopup(popup_1fe26513c6374b459b4224405e788cdc)
+        ;
+
+
+
+
+            var marker_b596d35386884dd783cf5c169b1bb5c9 = L.marker(
+                [55.64434, 12.118739999999999],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_92536904d86a45d38b38a7366c24d253 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b596d35386884dd783cf5c169b1bb5c9.setIcon(icon_92536904d86a45d38b38a7366c24d253);
+
+
+        var popup_0862920ba8bc472facb90ae1a02feb2c = L.popup({"maxWidth": "100%"});
+
+
+            var html_2a02827a68fd4601a38635f7dd2ba0d5 = $(`<div id="html_2a02827a68fd4601a38635f7dd2ba0d5" style="width: 100.0%; height: 100.0%;">Industrivej 21</div>`)[0];
+            popup_0862920ba8bc472facb90ae1a02feb2c.setContent(html_2a02827a68fd4601a38635f7dd2ba0d5);
+
+
+        marker_b596d35386884dd783cf5c169b1bb5c9.bindPopup(popup_0862920ba8bc472facb90ae1a02feb2c)
+        ;
+
+
+
+
+            var marker_4f320d4e9d574fd8a0abadb9f79892d9 = L.marker(
+                [55.650330000000004, 12.08395],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_e463fbfb8e9943f5985241b9e3152b06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f320d4e9d574fd8a0abadb9f79892d9.setIcon(icon_e463fbfb8e9943f5985241b9e3152b06);
+
+
+        var popup_213e1addd8ce4dd99a71092644fbfff7 = L.popup({"maxWidth": "100%"});
+
+
+            var html_3260720b9c8846e4be8138cc583f2d9a = $(`<div id="html_3260720b9c8846e4be8138cc583f2d9a" style="width: 100.0%; height: 100.0%;">Holb�kvej 59</div>`)[0];
+            popup_213e1addd8ce4dd99a71092644fbfff7.setContent(html_3260720b9c8846e4be8138cc583f2d9a);
+
+
+        marker_4f320d4e9d574fd8a0abadb9f79892d9.bindPopup(popup_213e1addd8ce4dd99a71092644fbfff7)
+        ;
+
+
+
+
+            var marker_a8019dd13b1d4097993c0685c98def4e = L.marker(
+                [55.650780000000005, 12.13031],
+                {}
+            ).addTo(map_e63ba73a7c1b425ca80c0c7182b3b405);
+
+
+            var icon_e0f6cfa80d1d45fc8a171387b55fb060 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8019dd13b1d4097993c0685c98def4e.setIcon(icon_e0f6cfa80d1d45fc8a171387b55fb060);
+
+
+        var popup_b4f62ae81b554bc8b48489c8ddf36dcc = L.popup({"maxWidth": "100%"});
+
+
+            var html_77c9dc9b690c4ed18a72eb25159ab19d = $(`<div id="html_77c9dc9b690c4ed18a72eb25159ab19d" style="width: 100.0%; height: 100.0%;">Lysalleen 94</div>`)[0];
+            popup_b4f62ae81b554bc8b48489c8ddf36dcc.setContent(html_77c9dc9b690c4ed18a72eb25159ab19d);
+
+
+        marker_a8019dd13b1d4097993c0685c98def4e.bindPopup(popup_b4f62ae81b554bc8b48489c8ddf36dcc)
+        ;
+
+
+
+</script>
