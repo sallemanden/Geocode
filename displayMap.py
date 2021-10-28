@@ -3,7 +3,7 @@ import folium
 from folium.plugins import MarkerCluster
 
 # DISPLAY THE MAP
-map = folium.Map(location=[55.64152,12.08035], tiles ='OpenStreetMap', zoom_start = 13)
+map = folium.Map(tiles ='cartodbpositron', location=[55.64152,12.08035],  zoom_start = 10)
 
 # CREATE A STATIC MARKER AT STATIC LOCATION
 folium.Marker(location=[55.65233,12.13799], popup='POSTOFFICE', icon = folium.Icon(color='red')).add_to(map)
